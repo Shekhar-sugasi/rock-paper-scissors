@@ -1,0 +1,107 @@
+.game-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #1F2937;
+    height: 100vh;
+}
+
+h1{
+    font-size: 48px;
+    font-style: "Roboto";
+    color: #34D399;
+}
+
+.description-text{
+    font-size: 22px;
+    font-style: "Roboto";
+    color: #D1D5DB;
+    font-weight: bolder;
+}
+
+#start-button{
+    background-color: green;
+    color: white;
+    padding: 6px;
+    font-family: "Roboto";
+    font-size: 16px;
+    height: 40px;
+    width: 90px;
+    border-width: 0px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+#game-interface{
+    display: none;
+    color: #FFFFFF;
+}
+
+#round{
+    color: #D1D5DB;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.scores{
+    color: #D1D5DB;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+#round-result{
+    font-style: "Roboto";
+}
+
+#final-result {
+    display: none;
+}
+
+#final-result.show{
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    color: #333;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#restart-button{
+    display: none;
+    margin-top: 10px;
+    border-width: 0px;
+    border-radius: 8px;
+    height: 34px;
+    width: 80px;
+    font-size: 14px;
+    background-color: green;
+    color: #FFFFFF;
+}
+
+.restart{
+    display: flex;
+    justify-content: center;
+}
+
+.user-action{
+    margin: 20px;
+}
+
+.action-button{
+    height: 40px;
+    width: 80px;
+    border-radius: 12px;
+    border-width: 0px;
+    margin: 2px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
